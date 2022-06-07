@@ -38,5 +38,4 @@ def main(filename):
             result += min(summary+(length-2)*min_cycle, summary+min_cycle+(length+1)*min_weight)
     return print(result)
 
-
 main(input())
